@@ -16,7 +16,7 @@ then
 	exit 
 fi
 	
-projectname=geovitest
+projectname=$1
 echo "Setup SilverStripe project: "$projectname
 
 echo "Clone core modules (read-only)"
