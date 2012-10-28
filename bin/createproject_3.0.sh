@@ -55,7 +55,7 @@ echo ""
 echo " ($step/$numsteps) Deploy SilverStripe blackcandy theme to $1/themes"
 echo ""
 step=$(($step+1))
-(cd $1; rm -rf themes; git clone git://github.com/silverstripe-themes/silverstripe-blackcandy.git themes)
+(cd $1; rm -rf themes; git clone git://github.com/silverstripe-themes/silverstripe-simple.git themes)
 
 echo ""
 echo " ($step/$numsteps) Deploy SilverStripe PostgreSQL module to $1/postgresql"
